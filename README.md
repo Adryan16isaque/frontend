@@ -1,2 +1,2 @@
 # frontend
-repo pra testes de branchs
+repositorio pra testes de branchs

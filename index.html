@@ -1,11 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Minha Página</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: grid;
+            place-items: center;
+            font-family: Arial, sans-serif;
+            color: #1f2937;
+            background: #f3f4f6;
+        }
+
+        main {
+            width: min(90%, 600px);
+            padding: 40px;
+            text-align: center;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        h1 {
+            margin-top: 0;
+            color: #2563eb;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 12px 20px;
+            color: white;
+            text-decoration: none;
+            background: #2563eb;
+            border-radius: 8px;
+        }
+
+        a:hover {
+            background: #1d4ed8;
+        }
+    </style>
 </head>
+
 <body>
-    
+
+    <main>
+        <h1>Bem-vindo!</h1>
+
+        <p>
+            Esta é uma página HTML simples,
+            criada com HTML e CSS.
+        </p>
+
+        <a href="https://www.google.com" target="_blank">
+            Acessar o Google
+        </a>
+    </main>
+
 </body>
 </html>

@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre | Minha Página</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+            color: #1f2937;
+            background: #f3f4f6;
+        }
+
+        header {
+            background: #2563eb;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            width: min(90%, 600px);
+            margin: auto;
+            padding: 40px;
+            text-align: center;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        h1 {
+            margin-top: 0;
+            color: #2563eb;
+        }
+
+        h2 {
+            color: #2563eb;
+            font-size: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .tecnologias {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+
+        .tecnologias span {
+            background: #dbeafe;
+            color: #1d4ed8;
+            padding: 10px 16px;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .botao {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 12px 20px;
+            color: white;
+            text-decoration: none;
+            background: #2563eb;
+            border-radius: 8px;
+        }
+
+        .botao:hover {
+            background: #1d4ed8;
+        }
+
+        footer {
+            padding: 20px;
+            text-align: center;
+            color: #6b7280;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Sobre o Projeto</h1>
+
+        <p>
+            Este site foi desenvolvido com o objetivo de
+            praticar conceitos de desenvolvimento web,
+            infraestrutura e publicação de aplicações.
+        </p>
+
+        <h2>Nosso objetivo</h2>
+
+        <p>
+            Aprender na prática como construir, configurar
+            e disponibilizar uma aplicação web utilizando
+            tecnologias de desenvolvimento e conteinerização.
+        </p>
+
+        <h2>Tecnologias utilizadas</h2>
+
+        <div class="tecnologias">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>Docker</span>
+            <span>Nginx</span>
+        </div>
+
+        <a class="botao" href="index.html">
+            Voltar para o início
+        </a>
+    </main>
+
+    <footer>
+        &copy; 2026 Minha Página. Todos os direitos reservados.
+    </footer>
+
+</body>
+</html>
